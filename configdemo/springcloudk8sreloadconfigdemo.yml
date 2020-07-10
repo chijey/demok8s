@@ -1,0 +1,27 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: springcloudk8sreloadconfigdemo
+data:
+  application.yml: |-
+    spring:
+      influx:
+        url: http://influxdb:30086
+        user: admin
+        password: admin
+    greeting:
+      message: Say Hello to the World 1234567890000
+    farewell:
+      message: Say Goodbye
+    ---
+    spring:
+      profiles: development
+    greeting:
+      message: Say Hello to the Developers
+    farewell:
+      message: Say Goodbye to the Developers
+    ---
+    spring:
+      profiles: production
+    greeting:
+      message: Say Hello to the Ops

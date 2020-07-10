@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reloadconfig
+  labels:
+    app: reloadconfig
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: reloadconfig
+      labels:
+        app: reloadconfig
+    spec:
+      containers:
+        - name: reloadconfig
+          image: "thingsmatrix:5000/configdemo:1.0-SNAPSHOT"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: reloadconfig
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: reloadconfig
+spec:
+  selector:
+    app: reloadconfig
+  ports:
+    - port: 8080
+      nodePort: 30084
+  type: NodePort

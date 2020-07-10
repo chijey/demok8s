@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-service
+  labels:
+    app: client-service
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: client-service
+      labels:
+        app: client-service
+    spec:
+      containers:
+        - name: client-service
+          image: thingsmatrix:5000/client-service:1.0-SNAPSHOT
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: native
+            - name: VERSION
+              value: 'K8S_TIMESTAMP'
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: client-service
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: client-service
+  labels:
+    app: client-service
+spec:
+  type: NodePort
+  ports:
+  # the port that this service should serve on
+  - port: 8080
+    targetPort: 8080
+    nodePort: 31899
+  selector:
+    app: client-service

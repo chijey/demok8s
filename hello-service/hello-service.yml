@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-service
+  labels:
+    app: hello-service
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: hello-service
+      labels:
+        app: hello-service
+    spec:
+      containers:
+        - name: hello-service
+          image: thingsmatrix:5000/hello-service:1.0-SNAPSHOT
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8090
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: native
+            - name: VERSION
+              value: 'K8S_TIMESTAMP'
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: hello-service
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-service
+  labels:
+    app: hello-service
+spec:
+  type: NodePort
+  ports:
+    # the port that this service should serve on
+    - port: 8080
+      targetPort: 8080
+      nodePort: 31090
+  selector:
+    app: hello-service
