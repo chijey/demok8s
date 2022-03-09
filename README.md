@@ -5,3 +5,4 @@ chijey test pull request
 chijey test push dev 
 
 chijey完成了一阶段开发工作
+chijey完成了二阶段开发工作
