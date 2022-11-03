@@ -12,4 +12,6 @@ import java.util.List;
 public interface UserClient  {
     @RequestMapping(method = RequestMethod.GET, value = "/hi_getall", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     List<String> getGreetings();
+
+
 }
