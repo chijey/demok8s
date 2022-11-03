@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(name = "hello-service", url = "http://hello-service:8083", fallbackFactory = UserClientFallbackFactory.class)
+/**
+ * url和name，如果同时存在优先调用url
+ */
+@FeignClient(name = "hello-service", url = "http://hello-service:8084/", fallbackFactory = UserClientFallbackFactory.class)
 public interface UserClient  {
     @RequestMapping(method = RequestMethod.GET, value = "/hi_getall", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     List<String> getGreetings();

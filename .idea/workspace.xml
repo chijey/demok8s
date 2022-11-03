@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148875b7-6417-4cc1-8dd8-51d16591ce56" name="Default Changelist" comment="去掉不必要的包">
-      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/NacosConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/NacosConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/chijey/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/chijey/provider/ProviderApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +253,7 @@
       <recent name="com.chijey.configdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chijey.clientservice.ClientServiceApplication" />
@@ -338,7 +333,7 @@
       <workItem from="1667217881595" duration="16000" />
       <workItem from="1667220518725" duration="6796000" />
       <workItem from="1667439214798" duration="7432000" />
-      <workItem from="1667466341654" duration="1712000" />
+      <workItem from="1667466341654" duration="3944000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1594279095722</created>
