@@ -8,11 +8,11 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>nacos-consumer</artifactId>
+    <groupId>com.chijey</groupId>
+    <artifactId>provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-consumer</name>
-    <description>nacos-consumer</description>
+    <name>provider</name>
+    <description>provider</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -26,22 +26,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.chijey</groupId>
-            <artifactId>hello-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-            <version>2.1.2.RELEASE</version>
         </dependency>
     </dependencies>
 

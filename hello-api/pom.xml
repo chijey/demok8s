@@ -22,12 +22,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-kubernetes-ribbon</artifactId>
-            <version>1.0.1.RELEASE</version>
-        </dependency>
-        <!-- feign libs -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-kubernetes-ribbon</artifactId>-->
+<!--            <version>1.0.1.RELEASE</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; feign libs &ndash;&gt;-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>

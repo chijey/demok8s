@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148875b7-6417-4cc1-8dd8-51d16591ce56" name="Default Changelist" comment="去掉不必要的包">
+      <change afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/NacosConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/NacosConsumerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,9 @@
       <find>open</find>
       <find>netflix-ribbon</find>
     </findStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,20 +244,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.chijey.helloservice.component" />
-      <recent name="com.chijey.helloservice" />
-      <recent name="com.chijey.helloapi.feign.fallback" />
-      <recent name="com.chijey.configdemo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\spring-feign\demok8s\client-service" />
       <recent name="C:\Users\Administrator\Desktop\spring-feign\demok8s\client-service\src\main\java\com\chijey\clientservice" />
       <recent name="C:\Users\Administrator\Desktop\spring-feign\demok8s\hello-service" />
       <recent name="C:\Users\Administrator\Desktop\spring-feign\demok8s\configdemo" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chijey.nacosconsumer.controller" />
+      <recent name="com.chijey.helloservice.component" />
+      <recent name="com.chijey.helloservice" />
+      <recent name="com.chijey.helloapi.feign.fallback" />
+      <recent name="com.chijey.configdemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chijey.clientservice.ClientServiceApplication" />
@@ -291,11 +302,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chijey.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ClientServiceApplication" />
       <item itemvalue="Spring Boot.ConfigdemoApplication" />
       <item itemvalue="Spring Boot.HelloServiceApplication" />
       <item itemvalue="Spring Boot.NacosConsumerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -319,7 +338,7 @@
       <workItem from="1667217881595" duration="16000" />
       <workItem from="1667220518725" duration="6796000" />
       <workItem from="1667439214798" duration="7432000" />
-      <workItem from="1667466341654" duration="58000" />
+      <workItem from="1667466341654" duration="1712000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1594279095722</created>

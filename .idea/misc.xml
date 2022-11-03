@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/hello-service/pom.xml" />
         <option value="$PROJECT_DIR$/client-service/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
       </list>
     </option>
   </component>
