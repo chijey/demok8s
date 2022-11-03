@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148875b7-6417-4cc1-8dd8-51d16591ce56" name="Default Changelist" comment="去掉不必要的包">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +219,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/k8s-springcloud/blog-example-master/springcloud/springcloud-kubernetes/springcloud-kubernetes-feign-demo/service-provider" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -247,7 +247,7 @@
       <recent name="C:\Users\Administrator\Desktop\spring-feign\demok8s\configdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloServiceApplication">
+  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
     <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chijey.clientservice.ClientServiceApplication" />
@@ -318,7 +318,8 @@
       <workItem from="1666370215084" duration="598000" />
       <workItem from="1667217881595" duration="16000" />
       <workItem from="1667220518725" duration="6796000" />
-      <workItem from="1667439214798" duration="5045000" />
+      <workItem from="1667439214798" duration="7432000" />
+      <workItem from="1667466341654" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1594279095722</created>
