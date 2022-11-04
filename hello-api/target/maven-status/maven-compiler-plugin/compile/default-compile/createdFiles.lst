@@ -1,0 +1,3 @@
+com/chijey/helloapi/feign/fallback/UserClientFallbackFactory.class
+com/chijey/helloapi/feign/UserClient.class
+com/chijey/helloapi/feign/fallback/UserClientFallbackFactory$1.class

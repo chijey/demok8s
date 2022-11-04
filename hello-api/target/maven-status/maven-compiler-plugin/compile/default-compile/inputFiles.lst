@@ -1,0 +1,2 @@
+/Users/wushiqian/IdeaProjects/demok8s/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java
+/Users/wushiqian/IdeaProjects/demok8s/hello-api/src/main/java/com/chijey/helloapi/feign/fallback/UserClientFallbackFactory.java
