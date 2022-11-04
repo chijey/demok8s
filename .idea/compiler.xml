@@ -16,6 +16,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud" target="1.8" />
+      <module name="consumerwithnacos" target="1.8" />
+      <module name="consumwithnacos" target="8" />
       <module name="helloservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -23,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client-service" options="-parameters" />
       <module name="configdemo" options="-parameters" />
+      <module name="consumerwithnacos" options="" />
       <module name="hello-api" options="-parameters" />
       <module name="hello-service" options="-parameters" />
       <module name="helloapi" options="-parameters" />

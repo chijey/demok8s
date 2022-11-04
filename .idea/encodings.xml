@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/client-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/consumerwithnacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configdemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configdemo/src/main/resources/bootstrap.yaml" charset="GBK" />
@@ -12,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/hello-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helloservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider/consumerwithnacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>

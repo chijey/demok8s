@@ -12,6 +12,8 @@
     <modules>
         <module>configdemo</module>
         <module>hello-api</module>
+        <module>nacos-consumer</module>
+        <module>provider</module>
     </modules>
 
 </project>
