@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nacos
+  labels:
+    app: nacos
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: nacos
+      labels:
+        app: nacos
+    spec:
+      containers:
+        - name: nacos
+          image: zill057/nacos-server-apple-silicon:2.0.3
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8848
+            - containerPort: 9848
+          env:
+            - name: PREFER_HOST_MODE
+              value: hostname
+            - name: MODE
+              value: standalone
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: nacos
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nacos
+  labels:
+    app: nacos
+spec:
+  type: NodePort
+  ports:
+    - port: 8848
+      targetPort: 8848
+      nodePort: 30848
+  selector:
+    app: nacos
