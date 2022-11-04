@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * url和name，如果同时存在优先调用url
  */
-@FeignClient(name = "hello-service", url = "hello-service", fallbackFactory = UserClientFallbackFactory.class)
+@FeignClient(name = "provider", url = "provider", fallbackFactory = UserClientFallbackFactory.class)
 public interface UserClient  {
     @RequestMapping(method = RequestMethod.GET, value = "/hi_getall", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     List<String> getGreetings();
