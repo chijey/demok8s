@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148875b7-6417-4cc1-8dd8-51d16591ce56" name="Default Changelist" comment="去掉不必要的包">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/src/main/java/com/chijey/helloapi/feign/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/target/classes/com/chijey/helloapi/feign/UserClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-api/target/hello-api-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/target/hello-api-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-api/target/hello-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hello-api/target/hello-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/java/com/chijey/nacosconsumer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/provider/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +340,7 @@
       <workItem from="1667220518725" duration="6796000" />
       <workItem from="1667439214798" duration="7432000" />
       <workItem from="1667466341654" duration="12558000" />
-      <workItem from="1667533390483" duration="6665000" />
+      <workItem from="1667533390483" duration="7219000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1594279095722</created>
