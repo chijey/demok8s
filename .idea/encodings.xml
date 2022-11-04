@@ -12,9 +12,13 @@
     <file url="file://$PROJECT_DIR$/hello-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helloservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer/Dockerfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer/consumer.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider/Dockerfile" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/consumerwithnacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider/provider.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>

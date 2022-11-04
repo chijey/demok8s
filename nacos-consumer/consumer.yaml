@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: consumer
+  labels:
+    app: consumer
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: consumer
+      labels:
+        app: consumer
+    spec:
+      containers:
+        - name: consumer
+          image: consumer
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 6700
+          env:
+            - name: VERSION
+              value: 'K8S_TIMESTAMP'
+            - name: spring.cloud.nacos.config.server-addr
+              value: nacos:8848
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: consumer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: consumer
+  labels:
+    app: consumer
+spec:
+  type: NodePort
+  ports:
+    - port: 6700
+      targetPort: 6700
+      nodePort: 30082
+  selector:
+    app: consumer
